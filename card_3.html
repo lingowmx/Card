@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>card 3</title>
+    <script src="https://kit.fontawesome.com/cbd8057907.js" crossorigin="anonymous"></script>
+    <style>
+        body{
+            color: white;
+        }
+        main{
+            display: flex;
+            justify-content: center;
+            background-color: lightskyblue;
+            padding: 20px;
+        }
+        .card-container{
+            width: 400px;
+            height: 500px;
+            background-color: rgb(39, 31, 31);
+            border-radius: 30px;
+            border: 4px solid white;
+            box-shadow: 5px 10px 30px 5px rgb(53, 22, 138);
+            overflow: hidden;
+            display: inline-block;
+            
+        }
+        .back-img img{
+            width: 100%;
+        }
+        .prof-img img{
+            width: 190px;
+            height: 190px;
+            border-radius: 50%;
+            position: absolute;
+            top: 150px;
+            left: 624px;
+            border: 3px solid black;
+        }
+        .info{
+            width: 100%;
+            margin-top: 50px;
+            text-align: center;
+            padding: 0%;
+        }
+        .info p{
+            line-height: 15%;
+            font-family: Arial, Helvetica, sans-serif;
+            letter-spacing: 4px;
+        }
+        .info p :nth-child(0){
+            font-size: 20px;
+        }
+        .info-card{
+            display: flex;
+            grid-template-columns: 1fr 1fr;
+            justify-content: space-evenly;
+            font-size: 21px;
+            text-align: center;
+        }
+        .info-card a{
+            color: white;
+        }
+        .social{
+            display: flex;
+            grid-template-columns: 1fr 1fr;
+            justify-content: space-evenly;
+            text-align: center;
+            background-color: rgb(92, 77, 77);
+            border-radius: 20px;
+            border: 2px solid green;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <section class="card-container">
+            <div class="back-img">
+                <img src="https://images.pexels.com/photos/6942688/pexels-photo-6942688.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="weed">
+            </div>
+            <div class="info">
+                <p>Don Carl Leonne</p>
+                <p>Mexico</p>
+            </div>
+            <div class="prof-img">
+                <img src="https://images.pexels.com/photos/3075517/pexels-photo-3075517.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="old man">
+            </div>
+            <div class="info-card">
+                <a class="projects" href="#"><i class="fa-brands fa-github"></i> View projects</a>
+                <a class="email" href="#"><i class="fa-solid fa-envelope"> </i> Send e-mail</a>
+            </div>
+            <hr>
+            <footer>
+                <div class="social">
+                    <div class="followers">
+                        <p>420</p>
+                        <p>Followers</p>
+                    </div>
+                    <div class="following">
+                        <p>420</p>
+                        <p>Following</p>
+                    </div>
+                </div>
+            </footer>
+        </section>
+    </main>
+
+</body>
+</html>
